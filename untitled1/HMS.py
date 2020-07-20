@@ -4,7 +4,7 @@ def main():
         return datetime.datetime.now()
     def take(k):
         if k==1:
-            c=int(input("Enter 1 for food and 2 for exercise\n"))
+            c=int(input("1 for food and 2 for exercise\n"))
             if c==1:
                 value= (input("Type Here\n"))
                 with open("sameer3-food.txt","a")as op:
